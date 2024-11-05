@@ -1,16 +1,17 @@
-@charset "UTF-8";
+@charset "utf-8";
 
-// setting
+//setting
 @import "setting/fonts";
 @import "setting/vars";
 @import "setting/reset";
 @import "setting/mixin";
 @import "setting/common";
 
-// section
+//section
 @import "section/layout";
 @import "section/header";
 @import "section/search";
 @import "section/today";
 @import "section/artist";
 @import "section/video";
+@import "section/swiper";
