@@ -1,10 +1,11 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Musicvideo = () => {
   return (
-    <div>
+    <Main>
       Musicvideo
-    </div>
+    </Main>
   )
 }
 

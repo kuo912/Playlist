@@ -1,10 +1,11 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
 const Latest = () => {
   return (
-    <div>
+    <Main>
       Latest
-    </div>
+    </Main>
   )
 }
 
