@@ -3,7 +3,10 @@ import Main from '../components/section/Main'
 
 const Pop = () => {
   return (
-    <Main>
+    <Main
+      title="Pop"
+      description="Pop 음악을 추천합니다."
+    >
       Pop
     </Main>
   )
