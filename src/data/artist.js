@@ -6,7 +6,7 @@ export const artistText = [
         channelId: "UCnXwXrQ8KIBoV8k1T3xGznw"
     },
     {
-        img: "https://yt3.googleusercontent.com/YL7Wx67RmAt2pu305O0wJjOG19rM4AgDbZRDHq3eqLHbBf4GHRzufkiowK_3riYdWiafCNPLRw=s160-c-k-c0x00ffffff-no-rj",
+        img: "https://yt3.googleusercontent.com/VIfl_FWPpvBdtOMf2xp3ce1Jla3QyyIsIifNQf3egmbRV7d4ykwJ1oNt99eLRprKauFSxfpN0g=s160-c-k-c0x00ffffff-no-rj",
         name: "DAY6",
         channelAddress: "https://www.youtube.com/@DAY6Official",
         channelId: "UCp-pqXsizklX3ZHvLxXyhxw"
