@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Main from '../components/section/Main'
 
 import { artistText } from '../data/artist'
