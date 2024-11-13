@@ -26,7 +26,7 @@ export const kpopText = [
         title: "LE SSERAFIM (르세라핌) 'CRAZY' OFFICIAL MV",
         img: kpop02,
         author: "HYBE LABELS",
-        videoId: "n6B5gQXlB-0&list=PL4fGSI1pDJn5S09aId3dUGp40ygUqmPGc&index=17",
+        videoId: "n6B5gQXlB-0?si=VQluZ8FOMOyHicEs",
         date: "2024.08.30",
         channelId: "UC3IZKseVpdzPSBaWxBxundA",
     },{
@@ -40,7 +40,7 @@ export const kpopText = [
         title: "aespa 에스파 'Supernova' MV",
         img: kpop04,
         author: "SMTOWN",
-        videoId: "phuiiNCxRMg&list=PL4fGSI1pDJn5S09aId3dUGp40ygUqmPGc&index=6",
+        videoId: "phuiiNCxRMg?si=TxZ2hHQi-uPoQDu6",
         date: "2024.05.13",
         channelId: "UCEf_Bc-KVd7onSeifS3py9g",
     },{

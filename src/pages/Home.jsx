@@ -2,7 +2,7 @@ import React from 'react'
 import Main from '../components/section/Main'
 import Today from '../components/contents/Today'
 import Artist from '../components/contents/Artist'
-import VideoSlider from '../components/video/VideoSlider'
+import VideoSlider from '../components/videos/VideoSlider'
 
 import { todayText } from '../data/today'
 import { artistText } from '../data/artist'

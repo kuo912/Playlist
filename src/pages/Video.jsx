@@ -10,16 +10,16 @@ import { CiStar } from "react-icons/ci";
 import { CiRead } from "react-icons/ci";
 
 const Video = () => {
-    const { videoId } = useParams();
+    const { videoID } = useParams();
     const [ videoDetail, setVideoDetail ] = useState(null);
 
     useEffect(() => {
-        fetchFromAPI(`videos?part=snippet,statistics&id=${videoId}`)
+        fetchFromAPI(`videos?part=snippet,statistics&id=${videoID}`)
         .then((data) => {
             console.log(data);
             setVideoDetail(data.items[0])
         })
-    }, [videoId]);
+    }, [videoID]);
 
     return (
       <Main 
@@ -32,7 +32,7 @@ const Video = () => {
               <div className='video__play'>
                 <ReactPlayer 
                   playing={true}
-                  url={`https://www.youtube.com/watch?v=${videoId}`} 
+                  url={`https://www.youtube.com/watch?v=${videoID}`} 
                   width='100%' 
                   height='100%' 
                   style={{ position: 'absolute', top: 0, left: 0 }}
