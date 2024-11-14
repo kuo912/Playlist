@@ -210,7 +210,7 @@ export const artistText = [
         channelId: "UCiGm_E4ZwYSHV3bcW1pnSeQ"
     },
     {
-        img: "https://yt3.googleusercontent.com/kPkWipDiZ8Yzx29wNVB5yzUvprmgWkJf7AMoPjE7okzWBVkHnPwERfKjp_gGhwaEqnIJiXA3a4Y=s160-c-k-c0x00ffffff-no-rj",
+        img: "https://yt3.googleusercontent.com/iUO0O5-J4OE-ab3dZOiionUydAqM6nwjSuDgnzPxXgY-ucnL7Gm53nWK8bhgBGkDZzYRPD6J=s160-c-k-c0x00ffffff-no-rj",
         name: "노브레인[NOBRAIN] Official",
         channelAddress: "https://www.youtube.com/@officialNOBRAIN",
         channelId: "UCGPvIaYhnCk5Ks9nqIJyGqg"
