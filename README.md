@@ -4,11 +4,7 @@
 YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익히고, API 응답을 처리하여 사용자에게 의미 있는 정보를 제공하는 방법을 이해합니다.
 
 ## 완성작 보기
-<<<<<<< HEAD
 미리보기 : 
-=======
-미리보기 : https://kuosplaylist.netlify.app / https://kuosplaylist.vercel.app/
->>>>>>> daa158b9af50226bac9a11faebb57f84c03b41d7
 
 ## 사용스택
 - node.js를 설치하고 사용합니다. 
@@ -28,8 +24,4 @@ YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익�
 - react-player를 설치합니다. `npm install react-player`
 - sass를 설치합니다. `npm install sass`
 - react-helmet-async를 설치합니다. `npm install react-helmet-async`
-<<<<<<< HEAD
 - swiper를 설치합니다. `npm install swiper`
-=======
-- swiper를 설치합니다. `npm install swiper`
->>>>>>> daa158b9af50226bac9a11faebb57f84c03b41d7
