@@ -2,16 +2,38 @@
     display: flex;
     flex-wrap: wrap;
 
+<<<<<<< HEAD
     .artist {
 
         .artist__img {
+=======
+    &.overflow {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .artist {
+        // margin-right: 20px;
+
+        .artist__img {
+            // width: 150px;
+            // height: 150px;
+>>>>>>> daa158b9af50226bac9a11faebb57f84c03b41d7
             border-radius: 50%;
             overflow: hidden;
             margin-bottom: 10px;
         }
         .artist__info {
+<<<<<<< HEAD
             text-align: center;
             @include line-one;
+=======
+            // width: 150px;
+            text-align: center;
+            @include line-one;
+            // padding-bottom: 40px;
+>>>>>>> daa158b9af50226bac9a11faebb57f84c03b41d7
         }
     }
 }
