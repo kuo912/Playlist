@@ -1,5 +1,4 @@
 import axios from "axios";
-import { CgMathDivide } from "react-icons/cg";
 
 export const BASE_URL = 'https://youtube-v31.p.rapidapi.com';
 

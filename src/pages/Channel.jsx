@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
 import { fetchFromAPI } from '../utils/api'
 
-import Main from '../components/section/Main';
-import VideoSearch from '../components/videos/VideoSearch';
+import Main from '../components/section/Main'
 
 import { CiBadgeDollar } from "react-icons/ci";
 import { CiMedal } from "react-icons/ci";
 import { CiRead } from "react-icons/ci";
+import VideoSearch from '../components/videos/VideoSearch';
 
 const Channel = () => {
     const { channelID } = useParams();
@@ -22,7 +22,7 @@ const Channel = () => {
                 const data = await fetchFromAPI(`channels?part=snippet&id=${channelID}`);
                 setChannelDetail(data.items[0]);
 
-                const videosData = await fetchFromAPI(`search?channelID=${channelID}&part=snippet%2Cid&order=date`);
+                const videosData = await fetchFromAPI(`search?channelId=${channelID}&part=snippet%2Cid&order=date`);
                 setChannelVideo(videosData?.items);
                 setNextPageToken(videosData?.nextPageToken);
             } catch (error) {
@@ -33,14 +33,16 @@ const Channel = () => {
         };
         fetchResults();
     }, [channelID]);
+    
+
 
     const loadMoreVideos = async () => {
-      if(nextPageToken){
-        const videosData = await fetchFromAPI(`search?channelId=${channelID}&part=snippet%2Cid&order=date&pageToken=${nextPageToken}`);
-        setChannelVideo(prevVideos => [...prevVideos, ...videosData.items]);
-        setNextPageToken(videosData?.nextPageToken);
-      }
-    };
+        if(nextPageToken){
+            const videosData = await fetchFromAPI(`search?channelID=${channelID}&part=snippet%2Cid&order=date&pageToken=${nextPageToken}`);
+            setChannelVideo(prevVideos => [...prevVideos, ...videosData.items]);
+            setNextPageToken(videosData?.nextPageToken);
+        }
+    }
 
     const channelPageClass = loading ? 'isLoading' : 'isLoaded';
 
@@ -52,9 +54,9 @@ const Channel = () => {
             <section id='channel' className={channelPageClass}>
                 {channelDetail && (
                     <div className='channel__inner'>
-                        <div className='channel__header' style={{ backgroundImage: `url(${channelDetail?.brandingSettings?.image?.bannerExternalUrl || ''})` }}>
+                        <div className='channel__header' style={{ backgroundImage: `url(${channelDetail.brandingSettings.image.bannerExternalUrl})` }}>
                             <div className='circle'>
-                            <img src={channelDetail.snippet.thumbnails.high.url} alt={channelDetail.snippet.title} />
+                                <img src={channelDetail.snippet.thumbnails.high.url} alt={channelDetail.snippet.title} />
                             </div>
                         </div>
                         <div className='channel__info'>
@@ -66,15 +68,16 @@ const Channel = () => {
                                 <span><CiRead />{channelDetail.statistics.viewCount}</span>
                             </div>
                         </div>
-                        <div className='channel__video video__inner search'>
+                        <div className="channel__video video__inner search">
                             <VideoSearch videos={channelVideo} />
                         </div>
                         <div className="channel__more">
-                          {nextPageToken && <button onClick={loadMoreVideos}>더 보기</button>}
+                            {nextPageToken && <button onClick={loadMoreVideos}>더 보기</button>}
                         </div>
                     </div>
                 )}
             </section>
+            
         </Main>
     )
 }

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const VideoSearch = ({ videos }) => {
     return (
         <>
-            {videos.map((video, index) => (
+            {videos && videos.map((video, index) => (
                 <div className="video" key={index}>
                     <div className="video__thumb play__icon">
                         <Link 
