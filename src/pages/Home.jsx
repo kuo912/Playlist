@@ -4,13 +4,13 @@ import Today from '../components/contents/Today'
 import Artist from '../components/contents/Artist'
 import VideoSlider from '../components/videos/VideoSlider'
 
-import { todayText } from '../data/today'
-import { artistText } from '../data/artist'
 import { playlistText } from '../data/playlist'
 import { latestText } from '../data/latest'
 import { musicvideoText } from '../data/musicvideo'
 import { popText } from '../data/pop'
 import { kpopText } from '../data/kpop'
+import { artistText } from '../data/artist'
+import { todayText } from '../data/today'
 
 const Home = () => {
   return (
