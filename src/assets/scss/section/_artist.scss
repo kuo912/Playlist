@@ -1,56 +1,34 @@
-.artist__inner {
-    display: flex;
-    flex-wrap: wrap;
+.artist__inner{
 
-<<<<<<< HEAD
-    .artist {
+    .artist{
 
-        .artist__img {
-=======
-    &.overflow {
-        width: 100%;
-        height: 200px;
-        overflow: hidden;
-    }
-
-    .artist {
-        // margin-right: 20px;
-
-        .artist__img {
-            // width: 150px;
-            // height: 150px;
->>>>>>> daa158b9af50226bac9a11faebb57f84c03b41d7
+        .artist__img{
             border-radius: 50%;
             overflow: hidden;
             margin-bottom: 10px;
         }
-        .artist__info {
-<<<<<<< HEAD
+
+        .artist__info{
             text-align: center;
             @include line-one;
-=======
-            // width: 150px;
-            text-align: center;
-            @include line-one;
-            // padding-bottom: 40px;
->>>>>>> daa158b9af50226bac9a11faebb57f84c03b41d7
         }
     }
 }
 
-
-#artistPage {
-    .artist__inner {
-        .artist {
+#artistPage{
+    .artist__inner{
+        .artist{
             margin-right: 20px;
         }
-        .artist__img {
+
+        .artist__img{
             width: 150px;
             height: 150px;
         }
-        .artist__info {
-            width: 150px;
-            padding-bottom: 40px;
+        
+        .artist__info{
+             width: 150px;
+             padding-bottom: 40px;   
         }
     }
 }
@@ -71,8 +49,8 @@
             }   
         }
     }
-    
 }
+
 @media (max-width: 800px){
     #artistPage {
         .artist__inner {
