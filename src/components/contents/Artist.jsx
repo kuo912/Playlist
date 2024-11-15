@@ -12,7 +12,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 const Artist = () => {
   return (
     <section id='artist'>
-      <h2>😪 추천 개발자를 소개합니다.</h2>
+      <h2>🎶 요즘 뜨는 아티스트, 놓치지 마세요!</h2>
       <div className='artist__inner'>
         <Swiper
           slidesPerView={4}
