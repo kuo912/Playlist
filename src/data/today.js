@@ -15,7 +15,8 @@ export const todayText = [
         author : "DAY6",
         channelId: "UCp-pqXsizklX3ZHvLxXyhxw",
         date: "2024.03.18",
-        page: "/today"
+        page: "/today",
+	videoId: "RowlrvmyFEk?si=YJKByCW9EHpEG9Pd"
     },
     {
         img: todayView02,
@@ -24,7 +25,8 @@ export const todayText = [
         author : "QWER",
         channelId: "UCgD0APk2x9uBlLM0UsmhQjw",
         date: "2024.09.23",
-        page: "/today"
+        page: "/today",
+	videoId: "AlirzLFEHUI?si=IBhMUkX6K8O8esa5"
     },
     {
         img: todayView03,
@@ -33,7 +35,8 @@ export const todayText = [
         author : "New Jeans",
         channelId: "UCMki_UkHb4qSc0qyEcOHHJw",
         date: "2024.06.21",
-        page: "/today"
+        page: "/today",
+	videoId: "ZncbtRo7RXs?si=afV_uGpVXRkteiIG"
     },
     {
         img: todayView04,
@@ -42,7 +45,8 @@ export const todayText = [
         author : "DAY6",
         channelId: "UCp-pqXsizklX3ZHvLxXyhxw",
         date: "2024.04.19",
-        page: "/today"
+        page: "/today",
+	videoId: "sWXGbkM0tBI?si=lrBqW2Xz8ziPjSJi"
     },
     {
         img: todayView05,
@@ -51,7 +55,8 @@ export const todayText = [
         author : "터치드 TOUCHED",
         channelId: "UC1VarYVKLPA6DL8rLclYxBg",
         date: "2024.09.23",
-        page: "/today"
+        page: "/today",
+	videoId: "o2zHd4147sk?si=Gg_5RxEpdWpO0nRl"
     },
     {
         img: todayView06,
@@ -60,7 +65,8 @@ export const todayText = [
         author : "WOODZ",
         channelId: "UCaMhpehN8xNWkVJB3ZQY0qQ",
         date: "2023.04.26",
-        page: "/today"
+        page: "/today",
+	videoId: "NbKH4iZqq1Y?si=Nr6YDyQ_Rysy5zt4"
     },
     {
         img: todayView07,
@@ -69,7 +75,8 @@ export const todayText = [
         author : "오오오 O.O.O",
         channelId: "UCSe1Er0BzGLF71tyJSpHS4g",
         date: "2020.03.06",
-        page: "/today"
+        page: "/today",
+	videoId: "qmkodlvhCSE?si=HuEGc3snhLI1LueT"
     },
     {
         img: todayView08,
@@ -78,6 +85,7 @@ export const todayText = [
         author : "윤하(YOUNHA)",
         channelId: "UCmAT2nOQB0ofAhlc7_2P8GA",
         date: "2022.03.30",
-        page: "/today"
+        page: "/today",
+	videoId: "BBdC1rl5sKY?si=W6owXAIlIIDwLfsM"
     },
 ]
