@@ -25,7 +25,7 @@ const Today = () => {
         {todayText.map((today, key) => (
           <div className="today__inner" key={key}>
           <div className="today__thumb play__icon">
-            <Link to={today.page}>
+            <Link to={`/video/${today.videoId}`}>
              <img src={today.img} alt={today.title} />
             </Link>
           </div>
