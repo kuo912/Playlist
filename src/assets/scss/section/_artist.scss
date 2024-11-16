@@ -1,5 +1,9 @@
 .artist__inner{
 
+    .artist__page{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .artist{
 
         .artist__img{
