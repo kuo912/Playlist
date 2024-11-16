@@ -22,7 +22,7 @@ const Artist = () => {
       
       <section id='artistPage' className={artistPageClass}>
         <h2>😪 추천 아티스트를 소개합니다.</h2>
-        <div className="artist__inner">
+        <div className="artist__inner artist__page">
           {artistText.map((artist, key) => (
             <div className="artist" key={key}>
               <div className="artist__img play__icon">
